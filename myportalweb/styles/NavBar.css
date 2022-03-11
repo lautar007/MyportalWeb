@@ -1,0 +1,43 @@
+
+@font-face{
+    font-family: 'head';
+    src:url('../fonts/Heading-Pro-Heavy-trial.ttf');
+}
+
+@font-face{
+    font-family: 'geo';
+    src:url('../fonts/GeosansLight.ttf');
+}
+
+.cont-NB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black
+}
+.titulos{
+    display: flex;
+    flex-direction:row;
+}
+.cont-NB h1{
+    font-family: 'head';
+    font-size: 52px;
+    margin: 0 5vh;
+}
+.cont-NB h2{
+    font-family: 'geo';
+    font-size: 32px;
+    margin: auto 0;
+}
+.cont-NB button{
+    font-family: 'geo';
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    width: fit-content;
+    margin: auto 5vh;
+    background-color: black;
+    color: white;
+    border: solid thin white;
+    cursor: pointer;
+}
