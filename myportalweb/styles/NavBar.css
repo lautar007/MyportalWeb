@@ -23,11 +23,13 @@
     font-family: 'head';
     font-size: 52px;
     margin: 0 5vh;
+    cursor: pointer;
 }
 .cont-NB h2{
     font-family: 'geo';
     font-size: 32px;
     margin: auto 0;
+    color:rgb(255, 136, 0)
 }
 .cont-NB button{
     font-family: 'geo';

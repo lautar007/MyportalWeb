@@ -1,0 +1,155 @@
+.botonera{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.botonera button{
+    background-color: black;
+    color: rgb(255, 136, 0);
+    border-top: solid thin rgb(255, 136, 0);
+    border-left: solid thin rgb(255, 136, 0);
+    border-right: solid thin rgb(255, 136, 0);
+    border-bottom: solid thin black;
+    width: fit-content;
+    padding: 10px 25px;
+    font-family: 'geo';
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.botonera button:hover{
+    border-top: solid thin black;
+    border-left: solid thin black;
+    border-right: solid thin black;
+    background-color: rgb(255, 136, 0);
+    color:black;
+}
+
+.cuadro-tec{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido{
+border: solid 3vh black;
+background-image: url('https://elenviador.com/wp-content/uploads/2020/07/Puerto-Madero-torres-noche.jpg');
+height: 80vh;
+width: 75%;
+display: flex;
+flex-direction: column;
+}
+
+.crear{
+    color:black;
+    font-family: 'head';
+    font-size: 53px;
+    margin: 20px 20vmax auto auto;
+}
+
+.tech{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+.tech h2{
+    font-family: 'geo';
+    color: rgb(255, 136, 0);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.grid img{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 20px 10px;
+    object-fit: cover;
+}
+
+.cont-target{
+border: solid 3vh black;
+height: 90vh;
+width: 95vmax;
+position: absolute;
+top: 25vh;
+background-color: black;
+}
+.cont-target h1{
+    font-family: 'head';
+}
+.title-target{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title-target button{
+    height: fit-content;
+    margin: auto 0px;
+    padding: 10px;
+    color:black;
+    background-color: rgb(255, 136, 0);
+    border:solid thin black;
+    cursor:pointer;
+    transition: 500ms;
+}
+.title-target button:hover{
+    border: solid thin rgb(255, 136, 0);
+    color: rgb(255, 136, 0);
+    background-color: black;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+}
+.presentacion p{
+    color: white;
+    margin: 10px 20px;
+    text-align: justify;
+    font-family: 'geo';
+    font-size: 20px;
+}
+
+.retrato{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border: solid thin rgb(255, 136, 0)
+}
+
+
+.pro-target{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 136, 0);
+    height: 200px;
+}
+.pro-target img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.pro-target h2{
+    color: black;
+    font-family: 'geo';
+    font-weight: bold;
+    margin: 10px 20px;
+    cursor:pointer;
+}
+.pro-target p{
+    font-family: 'geo';
+    font-weight: bold;
+    margin: 25px 20px;
+}
+
+
