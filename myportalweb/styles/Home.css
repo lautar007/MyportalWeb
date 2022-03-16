@@ -77,7 +77,7 @@ flex-direction: column;
 
 .cont-target{
 border: solid 3vh black;
-height: 90vh;
+height: fit-content;
 width: 95vmax;
 position: absolute;
 top: 25vh;
@@ -110,6 +110,7 @@ background-color: black;
 .presentacion{
     display: flex;
     flex-direction: row;
+    height: 450px;
 }
 .presentacion p{
     color: white;
@@ -132,6 +133,7 @@ background-color: black;
     flex-direction: row;
     background-color: rgb(255, 136, 0);
     height: 200px;
+    border-bottom: solid thin black;
 }
 .pro-target img{
     width: 400px;
@@ -151,5 +153,23 @@ background-color: black;
     font-weight: bold;
     margin: 25px 20px;
 }
-
+.pro-target button{
+    display: block;
+    margin-left: 5%;
+    margin-top: 6vh;
+    padding: 10px;
+    font-family: 'geo';
+    font-weight: bold;
+    background-color: black;
+    color:rgb(255, 136, 0);
+    border: none;
+    font-size: 16px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.pro-target button:hover{
+    border: solid thin black;
+    background-color: rgb(255, 136, 0);
+    color:black;
+}
 

@@ -1,0 +1,82 @@
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.galeria img{
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    border: solid thin rgb(255, 136, 0);
+}
+
+.detail-tit{
+    font-family: 'head';
+    margin-left: 25px;
+}
+
+.cont-detail{
+    background-color: rgb(255, 136, 0);
+    margin:auto 20px;
+    padding: 1px 0px;
+}
+.cont-detail h3{
+    font-family: 'geo';
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.cont-detail p{
+    font-family: 'geo';
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.botonera-d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.botonera-d button{
+    background-color: black;
+    color: rgb(255, 136, 0);
+    border-top: solid thin rgb(255, 136, 0);
+    border-left: solid thin rgb(255, 136, 0);
+    border-right: solid thin rgb(255, 136, 0);
+    border-bottom: solid thin black;
+    width: fit-content;
+    padding: 10px 25px;
+    font-family: 'geo';
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.botonera-d button:hover{
+    border-top: solid thin black;
+    border-left: solid thin black;
+    border-right: solid thin black;
+    background-color: rgb(255, 136, 0);
+    color:black;
+}
+
+.development{
+    color: rgb(255, 136, 0);
+    font-family: 'head';
+    margin-left: 2%;
+}
+.back{
+    font-family: 'geo';
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    width: 10%;
+    margin: auto 5vh;
+    background-color: black;
+    color: white;
+    border: solid thin white;
+    cursor: pointer;
+}

@@ -133,6 +133,9 @@ const typed = React.useRef(null);
             <h2>| Academic | FullStack Developer - Countries App</h2>
           </Link>
             <p>- Proyecto individual de creación de una Sinlge Page Application para la creación de actividades turísticas y la posibilidad de adjudicarlos a diferentes países.</p>
+            <Link href='/components/Countries'>
+            <button>Details</button>
+            </Link>
           </div>
         </div> 
 
@@ -145,12 +148,15 @@ const typed = React.useRef(null);
           <h2>| Academic | Fullstack developer - Eventy</h2>
           </Link>
           <p>- Group project to create a social network for the creation and promotion of social and sporting events and the possibility of finding nearby events.</p>
+          <Link href='/components/Eventy'>
+          <button>Details</button>
+          </Link>
         </div>
         </div>
 
         <div className="pro-target">
          <Link href='https://github.com/lautar007/plastico_web'>
-          <img src="https://i.pinimg.com/564x/31/dc/d5/31dcd58d545da0469cf8003c7f250984.jpg"/>
+          <img src="https://i.pinimg.com/564x/27/e4/91/27e491e22efc2ac7f7a0f5f23c99aa69.jpg"/>
           </Link> 
           <div>
           <Link href='https://github.com/lautar007/plastico_web/'>
@@ -158,6 +164,9 @@ const typed = React.useRef(null);
           </Link>
           <p>- Creación de un portfolio web para Plástico Estudio, estudio fotográfico localizado en Córdoba Capital. 
           Se realizó un portal web en el que, además de poder promocionar sus producciones fotográficas tanto artísticas como comerciales.</p>
+          <Link href='/components/Plastico'>
+          <button>Details</button>
+          </Link>
         </div>
         </div>
 
