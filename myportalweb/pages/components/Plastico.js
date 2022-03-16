@@ -48,7 +48,7 @@ export default function Countries (){
                        <p>A web portal was made in which, in addition to being able to promote their artistic and commercial photographic productions, the following was also implemented:</p>
                        <p>- A news blog, to present the latest on the studio. </p> 
                        <p>- The possibility of subscribing to a newsletter by email. </p>
-                       <p>- The possibility of registering as an intern to work and/or collaborate in the studio's productions.</p>
+                       <p>- The possibility of registering as an intern to work and/or collaborate in the studios productions.</p>
                        <p>- An exclusive task list for administrators to organize pending tasks.</p>
                        <h3>This web portal was designed with the following technologies:</h3>
                        <p>- JavaScript - React - Redux - PostgreSQL - Sequelize - Express.js - Styles with pure CSS. </p>
