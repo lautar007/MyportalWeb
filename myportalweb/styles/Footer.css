@@ -1,0 +1,40 @@
+.contact{
+    font-family: 'head';
+}
+
+.cont-footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.cont-contact{
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+}
+.cont-contact h3{
+    color: white;
+    font-family: 'geo';
+    margin: auto 10px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: auto 10px;
+}
+.logo1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin: auto 10px;
+    cursor:pointer
+}
+
+.logosdev{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+}

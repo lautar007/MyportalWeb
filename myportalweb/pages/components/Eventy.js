@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import NavBar from "./NavBar";
 import { useState } from "react";
+import Footer from "./Footer";
 
 export default function Countries (){
 
@@ -67,6 +68,7 @@ export default function Countries (){
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

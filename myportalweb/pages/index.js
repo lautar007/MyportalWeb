@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Typed from 'typed.js';
 import Link from 'next/link';
 import { useState} from "react";
+import Footer from "./components/Footer";
 
 
 export default function Land() {
@@ -174,6 +175,7 @@ const typed = React.useRef(null);
        :
        null
      }
+     <Footer/>
     </div>
   )
 }
